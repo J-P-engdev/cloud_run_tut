@@ -34,7 +34,7 @@ def event_receiver():
 
     # TODO(developer): Set table_id to the ID of the table to create.
     # table_id = "your-project.your_dataset.your_table_name"
-    table_id = f"workshocloudrun.cloud_run_tut.iris"
+    table_id = f"workshocloudrun.cloud-run-tut.iris"
 
     job_config = bigquery.LoadJobConfig(
         schema=[
